@@ -1,0 +1,11 @@
+[33mcommit 4eb3b3edc45ce11454f6a3312b2cf392fb1d3e69[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: SandroDev <sandrodevx@gmail.com>
+Date:   Tue May 13 20:17:18 2025 +0200
+
+    Update .env.example to use placeholder
+
+[33mcommit 0816add533ae549cc77e803675ff88fd15611c22[m
+Author: SandroDev <sandrodevx@gmail.com>
+Date:   Tue May 13 20:15:36 2025 +0200
+
+    Implementación inicial de Weather App con geolocalización y gráfico de temperatura semanal

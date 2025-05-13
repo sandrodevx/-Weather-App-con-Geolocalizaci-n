@@ -1,0 +1,41 @@
+[33mcommit 4eb3b3edc45ce11454f6a3312b2cf392fb1d3e69[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: SandroDev <sandrodevx@gmail.com>
+Date:   Tue May 13 20:17:18 2025 +0200
+
+    Update .env.example to use placeholder
+
+ .env.example | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 0816add533ae549cc77e803675ff88fd15611c22[m
+Author: SandroDev <sandrodevx@gmail.com>
+Date:   Tue May 13 20:15:36 2025 +0200
+
+    Implementación inicial de Weather App con geolocalización y gráfico de temperatura semanal
+
+ .env.example                           |    1 [32m+[m
+ .gitignore                             |   30 [32m+[m
+ README.md                              |   40 [32m+[m
+ eslint.config.js                       |   33 [32m+[m
+ index.html                             |   14 [32m+[m
+ package-lock.json                      | 3888 [32m++++++++++++++++++++++++++++++++[m
+ package.json                           |   30 [32m+[m
+ public/vite.svg                        |    1 [32m+[m
+ public/weather-icon.svg                |   14 [32m+[m
+ src/App.css                            |  177 [32m++[m
+ src/App.jsx                            |   56 [32m+[m
+ src/assets/react.svg                   |    1 [32m+[m
+ src/components/ChartWeather.jsx        |   26 [32m+[m
+ src/components/ChartWeather.module.css |   22 [32m+[m
+ src/components/CitySearch.jsx          |   27 [32m+[m
+ src/components/CitySearch.module.css   |   49 [32m+[m
+ src/components/Loader.jsx              |   10 [32m+[m
+ src/components/Loader.module.css       |   28 [32m+[m
+ src/components/WeatherCard.jsx         |   53 [32m+[m
+ src/components/WeatherCard.module.css  |   94 [32m+[m
+ src/hooks/useWeather.js                |  121 [32m+[m
+ src/main.jsx                           |   10 [32m+[m
+ src/pages/Home.jsx                     |   21 [32m+[m
+ src/services/weatherAPI.js             |   71 [32m+[m
+ vite.config.js                         |    7 [32m+[m
+ 25 files changed, 4824 insertions(+)
